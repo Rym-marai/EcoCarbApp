@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qbg"
+    tools:context=".WelcActivity">
+
+    <!-- Layout for the question -->
+    <LinearLayout
+        android:id="@+id/question_layout"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:paddingTop="50dp"
+        android:padding="30dp"
+        android:background="@color/colorPrimary"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/question"
+            android:textColor="#333333"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <!-- Layout for the RadioGroup -->
+    <LinearLayout
+        android:id="@+id/radio_group_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_below="@id/question_layout"
+        android:layout_marginTop="16dp">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+
+            <RadioButton
+                android:id="@+id/radio_button1"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/radio_button_background"
+                android:button="@null"
+                android:text="@string/option_4"
+                android:textColor="#333333"
+                android:textSize="20sp"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <RadioButton
+            android:id="@+id/radio_button2"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/option_2"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:background="@drawable/radio_button_background"
+            android:button="@null" />
+        <RadioButton
+            android:id="@+id/radio_button3"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/option_3"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:background="@drawable/radio_button_background"
+            android:button="@null" />
+        <RadioButton
+            android:id="@+id/radio_button4"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/option_1"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:background="@drawable/radio_button_background"
+            android:button="@null" />
+    </RadioGroup>
+    </LinearLayout>
+
+
+    <!-- Bouton "Suivant" -->
+
+    <!-- Bouton "Score" -->
+
+
+    <!-- Texte du score -->
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="124dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/suivant"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/score_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/next_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
+        android:text=""
+        android:textColor="#333333"
+        android:textSize="18sp"
+        tools:layout_marginTop="30dp" />
+
+</RelativeLayout>

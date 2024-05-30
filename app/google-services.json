@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "5088156683",
+    "project_id": "ecocarb-a785b",
+    "storage_bucket": "ecocarb-a785b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5088156683:android:d76ba55fbf9d261f627b0e",
+        "android_client_info": {
+          "package_name": "com.example.ecocarb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCawWhqqnSZGUbamECvfRhgeJ3K9T2GAFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
