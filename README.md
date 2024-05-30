@@ -1,7 +1,7 @@
 
 # EcoCarb App
 
-Welcome to the EcoCarb app repository! This is a school academic project. EcoCarb is a mobile application designed to help users become more eco-friendly by assessing their current habits and encouraging sustainable transportation choices through engaging challenges.
+Welcome to the EcoCarb app repository! This is a school academic project. EcoCarb is a mobile application designed to help users become more eco-friendly by assessing their current habits and encouraging sustainable choices through engaging challenges.
 
 ## Features
 - **User Authentication**: Secure user registration and login.
